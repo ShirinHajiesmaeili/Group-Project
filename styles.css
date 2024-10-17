@@ -31,7 +31,23 @@ h2 {
   color: #000000; /* Optional: text color */
   font-size: 2em; /* Optional: font size */
   padding: 20px; /* Optional: padding around the text */
-  background-size: 100px;
+}
+.gallery-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat (1fr, 1fr);
+  gap: 10px; /* Space between images */
+}
+
+.gallery-item img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100px;
+  align-items: center;
 }
 .navbar {
   position: relative;
