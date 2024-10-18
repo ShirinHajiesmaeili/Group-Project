@@ -23,6 +23,10 @@ video {
   transform: translate(-50%, -50%);
   z-index: -1;
 }
+.brands-items{ text-align: center;
+
+}
+
 
 body {
   font-family: "Dosis", sans-serif;
