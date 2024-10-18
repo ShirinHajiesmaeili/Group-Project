@@ -79,8 +79,6 @@ h2 {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
 }
-<<<<<<< HEAD
-
 
 .burger {
   display: none;
@@ -137,19 +135,9 @@ h2 {
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
-=======
+
 .nav-links a:hover {
   color: #f0a500; /* Gold hover effect */
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
-  padding: 5px;
-  text-align: left;
->>>>>>> d474444103a25ef1e69466bf929096238b91f140
-}
+
