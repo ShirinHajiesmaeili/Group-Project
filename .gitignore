@@ -1,0 +1,144 @@
+## .gitignore for web application development 
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Node.js specific
+node_modules/
+npm-debug.log
+yarn-debug.log
+.pnpm-debug.log
+.cache/
+dist/
+build/
+.temp/
+
+## MongoDB
+data/db/
+*.lock
+mongod.lock
+
+## PostgreSQL
+pgdata/
+*.pid
+*.log
+
+## Environment variables
+.env
+.env.local
+.env.*.local
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+.vscode-test/
+
+## IDE-specific
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+## Dependency directories
+jspm_packages/
+bower_components/
+
+## Optional npm cache directory
+.npm
+
+## Optional eslint cache
+.eslintcache
+
+## Optional stylelint cache
+.stylelintcache
+
+## TypeScript specific
+*.tsbuildinfo
+
+## Test Coverage
+coverage/
+
+## Parcel-bundler cache (if used)
+.cache/
+
+## Next.js build output (if applicable)
+.next/
+out/
+
+## Nuxt.js build output (if applicable)
+.nuxt/
+dist/
+
+## Gatsby files (if applicable)
+.cache/
+public/
+
+# Vuepress build output (if applicable)
+.vuepress/dist
+
+## SvelteKit build output (if applicable)
+.svelte-kit/
+
+## Gridsome (Vue.js framework) build output
+dist/
+static/
+
+## Static site generators
+public/
+
+## Prettier formatter log files
+.prettier-cache
+
+## Build artifacts
+*.js.map
+*.css.map
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+## SASS Cache
+.sass-cache/
+
+## Coverage and linting results
+coverage/
+.lcov/
+*.lcov
+*.log
+*.out
+*.test
+
+## OS generated files
+## Linux files
+*~ 
+.nfs*
+
+## MacOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows files
+Thumbs.db
+ehthumbs.db
+
+## Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+*.envrc
+*.pnp.js
+.pnp/
+
+## Local project settings
+*.local
+
+## EOF .gitignore
