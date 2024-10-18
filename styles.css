@@ -55,8 +55,7 @@ h2 {
   width: 100%;
   top: 0; /* Navbar at the top */
 }
-
-.navbar .logo a {
+.navbar .logo {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.5rem;
