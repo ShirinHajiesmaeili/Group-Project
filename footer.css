@@ -1,55 +1,56 @@
-
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
+    padding: 40px 0; /* Padding around the footer content */
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; 
 }
 
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* Space between columns */
+    max-width: 1200px; /* Maximum width for centereing content */
+    margin: 0 auto; /* Center the footer content */
+    padding: 0 20px; /* Padding inside the footer to prevent text touching edges */
 }
 
 .footer-column h3 {
-    margin-bottom: 15px;
-    font-size: 1.2em;
+    margin-bottom: 15px; /* Space below the headings */
+    font-size: 1.2em; /* Font size for headings */
 }
 
 .footer-column p {
-    line-height: 1.6;
+    line-height: 1.6; /* Line spacing for paragraph text */
 }
 
 .footer-column ul {
-    list-style: none;
+    list-style: none; /* Remove bullet points from lists */
+    padding: 0; /* Remove default padding */
+    margin: 0;  /* Remove default margin */
 }
 
 .footer-column ul li {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Space between list items */
 }
 
 .footer-column ul li a {
-    color: #ddd;
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #ddd; /* Light gray link color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition when hovered */
 }
 
 .footer-column ul li a:hover {
-    color: #fff;
+    color: #fff; /* Change link color to white on hover */
 }
 
-
+/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .footer-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .footer-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* 1 column on small screens */
     }
 }
